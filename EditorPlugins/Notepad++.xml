@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="StoneScript" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00// 01 02 03/* 04*/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">= | &amp; ! &gt;= &lt;= &lt; ++ -- * / ^ + - % ( ) :? ? : , &gt;( &gt;o &gt;h &gt;` &gt;c &gt;f &gt; [ ] </Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">loc loc.name loc.id loc.stars loc.begin loc.loop loc.bestTime loc.averageTime&#x000D;&#x000A;&#x000D;&#x000A;harvest harvest.distance pickup pickup.distance &#x000D;&#x000A;&#x000D;&#x000A;time totaltime&#x000D;&#x000A;&#x000D;&#x000A;ai.enabled ai.paused ai.idle ai.walking &#x000D;&#x000A;&#x000D;&#x000A;face key player.name totalgp player.direction player.name&#x000D;&#x000A;&#x000D;&#x000A;res.stone res.wood res.tar res.ki res.bronze&#x000D;&#x000A;&#x000D;&#x000A;screen.i screen.x screen.w screen.h&#x000D;&#x000A;&#x000D;&#x000A;input.x input.y&#x000D;&#x000A;&#x000D;&#x000A;ambient ambient.Add ambient.Stop music music.Play music.Stop()&#x000D;&#x000A;&#x041D;&#x0435;&#x0442; &#x0432;&#x043E;&#x0437;&#x0432;&#x0440;&#x0430;&#x0449;&#x0430;&#x0435;&#x043C;&#x043E;&#x0433;&#x043E; &#x0437;&#x043D;&#x0430;&#x0447;&#x0435;&#x043D;&#x0438;&#x044F;&#x000D;&#x000A; &#x000D;&#x000A;draw.Bg draw.Box draw.Clear draw.GetSymbol draw.Player</Keywords>
+            <Keywords name="Keywords2">foe foe.name foe.distance foe.count foe.hp foe.maxhp foe.armor foe.maxarmor foe.buffs.count foe.buffs.string foe.debuffs.count foe.debuffs.string foe.state foe.time foe.level &#x000D;&#x000A;&#x000D;&#x000A;item.left item.right item.potion&#x000D;&#x000A;&#x000D;&#x000A;hp maxhp armor maxarmor armor.f &#x000D;&#x000A;buffs.count buffs.string debuffs.count debuffs.string&#x000D;&#x000A;&#x000D;&#x000A;pos.x pos.y pos.z&#x000D;&#x000A;&#x000D;&#x000A;player.ShowScaredFace&#x000D;&#x000A;&#x000D;&#x000A;item.CanActivate item.GetCooldown item.GetCount</Keywords>
+            <Keywords name="Keywords3">rng rngf int.Parse math.Clamp Type&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;&#x000D;&#x000A;true false&#x000D;&#x000A;&#x000D;&#x000A;int.Parse&#x000D;&#x000A;math.Abs math.Sign math.Min math.Max math.Clamp math.Round math.RoundToInt math.Floor math.FloorToInt math.Ceil math.CeilToInt math.Lerp math.Log math.Pow math.Sqrt math.pi math.ToDeg math.ToRad math.Acos math.Asin math.Atan math.Cos math.Sin math.Tan&#x000D;&#x000A;&#x000D;&#x000A;screen.FromWorldX screen.FromWorldZ screen.ToWorldX screen.ToWorldZ screen.Next screen.Previous screen.ResetOffset&#x000D;&#x000A; &#x000D;&#x000A;string.Break string.Capitalize string.Equals string.Format string.IndexOf string.Join string.Size string.Split string.Sub string.ToLower string.ToUpper&#x000D;&#x000A;&#x000D;&#x000A;te.language te.xt te.GetTID te.ToEnglish&#x000D;&#x000A;&#x000D;&#x000A; time.year time.month time.day time.hour time.minute time.second time.ms utc.year utc.month utc.day utc.hour utc.minute utc.second&#x000D;&#x000A;&#x000D;&#x000A;time.FormatCasual time.FormatDigital&#x000D;&#x000A;&#x000D;&#x000A;ui.Clear ui.AddButton button.x button.y button.w button.h button.text button.tcolor button.bcolor button.sound button.SetPressed ui.ShowBanner</Keywords>
+            <Keywords name="Keywords4">activate brew equip equipL equipR loadout</Keywords>
+            <Keywords name="Keywords5">var func for return</Keywords>
+            <Keywords name="Keywords6">import new &#x000D;&#x000A;&#x000D;&#x000A;storage storage.Delete storage.Get storage.Has storage.Incr storage.Set</Keywords>
+            <Keywords name="Keywords7">disable enable abilities banner hud loadout print input pause player play &#x000D;&#x000A;&#x000D;&#x000A;loc.Leave loc.Pause&#x000D;&#x000A;&#x000D;&#x000A;</Keywords>
+            <Keywords name="Keywords8">poison vigor aether fire air ice Fire Ice Poison Vigor AEther Stone vitality&#x000D;&#x000A;&#x000D;&#x000A;arachnid serpent insect machine humanoid elemental &#x000D;&#x000A;&#x000D;&#x000A;boss phase phase1 phase2 phase3 &#x000D;&#x000A;&#x000D;&#x000A;spawner flying slow ranged explode swarm &#x000D;&#x000A;&#x000D;&#x000A;unpushable undamageable magic_resist magic_vulnerability &#x000D;&#x000A;&#x000D;&#x000A;immune_to_stun immune_to_ranged immune_to_physical immune_to_debuff_damage immune_to_debuff_dot immune_to_debuff_chill immune_to_Vigor &#x000D;&#x000A;&#x000D;&#x000A;debuff_damage debuff_dot debuff_dot_2 debuff_chill stun&#x000D;&#x000A;&#x000D;&#x000A;&#x221E; &#x03C6; &#x2744;&#x2665; o &#x2665; &#x2744;&#x000D;&#x000A;&#x000D;&#x000A;reasure&#x000D;&#x000A;&#x000D;&#x000A;pick_pocket smite &#x000D;&#x000A;&#x000D;&#x000A;berserk lucky_crit lucky_mult strength invisibility vampiric experience&#x000D;&#x000A;&#x000D;&#x000A;debuff_duration_damage puff_debuff_damage debuff_yeti_chill debuff_move_speed debuff_attack_speed&#x000D;&#x000A;&#x000D;&#x000A;spider_buff_damage poena_mirror poena_crit poena_mult buff_protection&#x000D;&#x000A;&#x000D;&#x000A;bardiche_buff_aoe_chance bardiche_buff_crit_chance bardiche_buff_crit_mult bardiche_buff_move_speed&#x000D;&#x000A;quarterstaff_buff_attack_speed quarterstaff_buff_stun&#x000D;&#x000A;&#x000D;&#x000A;bardiche bash dash hatcher mind quarterstaff blade&#x000D;&#x000A;&#x000D;&#x000A;rocky_plateau deadwood_valley caustic_caves waterfall cross_deadwood_river fungus_forest fungus_forest_boss_harder uulaa_shop undead_crypt_intro undead_crypt undead_crypt_boss_harder bronze_mine bronze_guardian_harder icy_ridge cross_bridge temple nagaraja_harder&#x000D;&#x000A;&#x000D;&#x000A;mind_stone moon_stone triskelion_stone fissure_stone quest_stone ouroboros_stone xp_stone xi_stone star_stone sight_stone&#x000D;&#x000A;&#x000D;&#x000A;grapplinng_hook hatchet_lv1 shovel_lv1&#x000D;&#x000A;&#x000D;&#x000A;runestone stones wand sword shield crossbow quarterstaff&#x000D;&#x000A;hammer lonng_sword heavy_crossbow dashing_shield repeating_crossbow compound_shield bardiche&#x000D;&#x000A;soketed_shield soketed_sword soketed_staff socketed_long_sword soketed_hammer&#x000D;&#x000A;&#x000D;&#x000A;skeleton_arm blade_of_god</Keywords>
+            <Keywords name="Delimiters">00@ 01 02@ 03&quot; 04 05&quot; 06ascii 07 08asciiend 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="8000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0080" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="008000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="008000" bgColor="FFFFFF" fontStyle="1" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="FF8000" bgColor="FFFFFF" fontStyle="2" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="0080C0" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="FF0000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="808000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="008040" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="8000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="0000FF" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
